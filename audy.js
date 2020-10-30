@@ -1,6 +1,6 @@
 $(document).ready(function(){
 });
-if (document.URL == 'http://161.35.180.62'){
+if (window.location.hostname == '161.35.180.62'){
     if(document.URL.indexOf('mobile/sport')>0){
         $(document).ready(function(){
             $("link[rel='canonical']").attr('href', 'http://161.35.180.62/mobile/sport');
